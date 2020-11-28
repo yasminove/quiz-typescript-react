@@ -1,7 +1,8 @@
 
 ### Quiz App - React - TypeScript - Bootstrap
 
-### View the app here: quiz-react-typescript.netlify.app
+### View the app [here](quiz-react-typescript.netlify.app)
+
 
 
 # Getting Started with Create React App
