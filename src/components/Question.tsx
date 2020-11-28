@@ -1,14 +1,6 @@
 import React from 'react';
 import {AnswerObject} from '../App'
-// export type Question = {
-//   answers?: string[];
-//   category: string;
-//   correct_answer: string;
-//   difficulty: string;
-//   incorrect_answers: string[];
-//   question: string;
-//   type: string;
-// };
+
 
 // export type AnswerObject = {
 //     question: string, 
@@ -16,8 +8,6 @@ import {AnswerObject} from '../App'
 //     correct: boolean, 
 //     correctAnswer: string
 //   }
-
-
 
 
 export type Question = {
@@ -29,10 +19,6 @@ export type Question = {
   callback: (e: React.MouseEvent<HTMLButtonElement>) => void
 };
 
-type ButtonWrapper = {
-  correct: boolean, 
-  userClicked: boolean
-}
 
 const Question:React.FC<Question> = ({
   questionNum,
